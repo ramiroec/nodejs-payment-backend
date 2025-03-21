@@ -6,7 +6,7 @@ const app = express();
 const PORT = 3000;
 
 // Configura Stripe con tu clave de prueba
-const stripe = new Stripe('sk_test_51NgfrlD0Flo7iVv57XuUcN2AaoW39eVlOozZVYrdR1VIZc3pL14dZOvXdLst0YpAyIPVRYKxcDER4zZ16Qc1ulAZ008RnFlhLJ'); // Reemplaza con tu clave de prueba
+const stripe = new Stripe('sk_test_51NgfrlD0Flo7iVv57XuUcN2AaoW39eVlOozZVYrdR1VIZc3pL14dZOvXdLst0YpAyIPVRYKxcDER4zZ16Qc1ulAZ008RnFlhLJ'); 
 
 // Middleware
 app.use(cors());
